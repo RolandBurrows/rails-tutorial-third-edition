@@ -15,3 +15,7 @@
 ### 1.1.1 Prerequisites
 - There are no formal prerequisites to this book—the Ruby on Rails Tutorial contains integrated tutorials not only for Rails, but also for the underlying Ruby language, the default Rails testing framework (minitest), the Unix command line, HTML, CSS, a small amount of JavaScript, and even a little SQL.
 - Recommend having some HTML and programming background before starting this tutorial.
+
+### 1.1.2 Conventions in this book
+- Each chapter in the tutorial includes exercises, the completion of which is optional but recommended.
+- In order to keep the main discussion independent of the exercises, the solutions are not generally incorporated into subsequent code listings. In the rare circumstance that an exercise solution is used subsequently, it is explicitly solved in the main text.
