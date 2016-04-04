@@ -19,3 +19,16 @@
 ### [1.1.2 Conventions in this book](https://www.railstutorial.org/book/beginning#sec-conventions)
 - Each chapter in the tutorial includes exercises, the completion of which is optional but recommended.
 - In order to keep the main discussion independent of the exercises, the solutions are not generally incorporated into subsequent code listings. In the rare circumstance that an exercise solution is used subsequently, it is explicitly solved in the main text.
+
+### [1.2.1 Development environment](https://www.railstutorial.org/book/beginning#sec-development_environment)
+- The three essential components needed to develop web applications: a text editor, a filesystem navigator, and a command-line terminal.
+- The “Find in Files” global search can be considered essential to navigating any large Ruby or Rails project.
+- Extra Development Settings for Sublime Text that are Awesome:
+```
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "ensure_newline_at_eof_on_save": true,
+  "save_on_focus_lost": true,
+  "scroll_past_end": true,
+```
