@@ -40,8 +40,17 @@ $ gem install rails -v 4.2.2
 - Here the -v flag ensures that the specified version of Rails gets installed, which is important to get results consistent with this tutorial.
 ```
 Done installing documentation for i18n, thread_safe, tzinfo, activesupport, builder, erubis, mini_portile2,
-nokogiri, rails-deprecated_sanitizer, rails-dom-testing, loofah, rails-html-sanitizer, actionview, rack, rack-test,
-actionpack, globalid, activejob, mime-types-data, mime-types, mail, actionmailer, activemodel, arel, activerecord,
-thor, railties, concurrent-ruby, sprockets, sprockets-rails, rails after 486 seconds
+nokogiri, rails-deprecated_sanitizer, rails-dom-testing, loofah, rails-html-sanitizer, actionview, rack,
+rack-test, actionpack, globalid, activejob, mime-types-data, mime-types, mail, actionmailer, activemodel,
+arel, activerecord, thor, railties, concurrent-ruby, sprockets, sprockets-rails, rails after 486 seconds
 31 gems installed
 ```
+
+### [1.3 The first application](https://www.railstutorial.org/book/beginning#sec-the_hello_application)
+```
+$ rails _4.2.2_ new hello_app
+.
+Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
+```
+- This standard directory and file structure is one of the many advantages of Rails; it immediately gets you from zero to a functional (if minimal) application.
+- Moreover, since the structure is common to all Rails apps, you can immediately get your bearings when looking at someone else’s code.
