@@ -32,3 +32,13 @@
   "save_on_focus_lost": true,
   "scroll_past_end": true,
 ```
+
+### [1.2.2 Installing Rails](https://www.railstutorial.org/book/beginning#sec-installing_rails)
+```
+$ gem install rails -v 4.2.2
+```
+- Here the -v flag ensures that the specified version of Rails gets installed, which is important to get results consistent with this tutorial.
+```
+Done installing documentation for i18n, thread_safe, tzinfo, activesupport, builder, erubis, mini_portile2, nokogiri, rails-deprecated_sanitizer, rails-dom-testing, loofah, rails-html-sanitizer, actionview, rack, rack-test, actionpack, globalid, activejob, mime-types-data, mime-types, mail, actionmailer, activemodel, arel, activerecord, thor, railties, concurrent-ruby, sprockets, sprockets-rails, rails after 486 seconds
+31 gems installed
+```
