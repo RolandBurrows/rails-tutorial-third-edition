@@ -71,6 +71,7 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 ```
 Started GET "/" for ::1 at 2016-04-05 23:12:28 -0600
 Processing by Rails::WelcomeController#index as HTML
-  Rendered C:/Ruby224/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+  Rendered C:/Ruby224/lib/ruby/gems/2.2.0/gems/railties-4.2.2
+  /lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
 Completed 200 OK in 71ms (Views: 55.7ms | ActiveRecord: 0.0ms)
 ```
