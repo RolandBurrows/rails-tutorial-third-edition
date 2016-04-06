@@ -54,3 +54,11 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 ```
 - This standard directory and file structure is one of the many advantages of Rails; it immediately gets you from zero to a functional (if minimal) application.
 - Moreover, since the structure is common to all Rails apps, you can immediately get your bearings when looking at someone else’s code.
+
+### [1.3.1 Bundler](https://www.railstutorial.org/book/beginning#sec-bundler)
+- `gem 'uglifier', '>= 1.3.0'`
+- This installs the latest version of the uglifier gem as long as it’s greater than or equal to version 1.3.0—even if it’s, say, version 7.2.
+- `gem 'coffee-rails', '~> 4.0.0'`
+- This installs the gem coffee-rails as long as it’s newer than version 4.0.0 and not newer than 4.1.
+- In other words, the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems representing minor point releases (e.g., from 4.0.0 to 4.0.1), but not major point releases (e.g., from 4.0 to 4.1).
+- `Bundle complete! 12 Gemfile dependencies, 58 gems now installed.`
