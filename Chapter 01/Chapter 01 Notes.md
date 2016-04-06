@@ -1,4 +1,4 @@
-## [Chapter 1](https://www.railstutorial.org/book/beginning) - From zero to deploy
+## [Chapter 1 - From zero to deploy](https://www.railstutorial.org/book/beginning)
 
 ### Foreword
 - If you already know web development, this book will quickly teach you the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby.
@@ -57,9 +57,9 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 
 ### [1.3.1 Bundler](https://www.railstutorial.org/book/beginning#sec-bundler)
 - `gem 'uglifier', '>= 1.3.0'`
-- This installs the latest version of the uglifier gem as long as it’s greater than or equal to version 1.3.0—even if it’s, say, version 7.2.
+  - This installs the latest version of the uglifier gem as long as it’s greater than or equal to version 1.3.0—even if it’s, say, version 7.2.
 - `gem 'coffee-rails', '~> 4.0.0'`
-- This installs the gem coffee-rails as long as it’s newer than version 4.0.0 and not newer than 4.1.
+  - This installs the gem coffee-rails as long as it’s newer than version 4.0.0 and not newer than 4.1.
 - In other words, the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems representing minor point releases (e.g., from 4.0.0 to 4.0.1), but not major point releases (e.g., from 4.0 to 4.1).
 - `Bundle complete! 12 Gemfile dependencies, 58 gems now installed.`
 
