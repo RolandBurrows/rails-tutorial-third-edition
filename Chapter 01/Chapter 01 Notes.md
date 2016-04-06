@@ -62,3 +62,15 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 - This installs the gem coffee-rails as long as it’s newer than version 4.0.0 and not newer than 4.1.
 - In other words, the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems representing minor point releases (e.g., from 4.0.0 to 4.0.1), but not major point releases (e.g., from 4.0 to 4.1).
 - `Bundle complete! 12 Gemfile dependencies, 58 gems now installed.`
+
+### [1.3.2 rails server](https://www.railstutorial.org/book/beginning#sec-rails_server)
+- Windows issues resolved:
+  - `cannot load such file -- sqlite3/sqlite3_native (LoadError)` => [StackOverflow: Update gem to 1.3.11](http://stackoverflow.com/questions/17643897/cannot-load-such-file-sqlite3-sqlite3-native-loaderror-on-ruby-on-rails)
+  - `cannot load such file -- pty (LoadError)` => [StackOverflow: Remove non-windows gem](http://stackoverflow.com/questions/26666690/rails-generate-controller-gives-me-load-error)
+  - It works!
+```
+Started GET "/" for ::1 at 2016-04-05 23:12:28 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby224/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 71ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+```
