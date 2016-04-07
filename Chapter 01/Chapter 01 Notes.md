@@ -75,3 +75,7 @@ Processing by Rails::WelcomeController#index as HTML
   /lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
 Completed 200 OK in 71ms (Views: 55.7ms | ActiveRecord: 0.0ms)
 ```
+
+### [1.3.3 Model-View-Controller (MVC)](https://www.railstutorial.org/book/beginning#sec-mvc)
+- Rails follows the model-view-controller (MVC) architectural pattern, which enforces a separation between “domain logic” (also called “business logic”) from the input and presentation logic associated with a graphical user interface (GUI).
+- [Figure 1.11: A schematic representation of the model-view-controller (MVC) architecture.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/mvc_schematic.png)
