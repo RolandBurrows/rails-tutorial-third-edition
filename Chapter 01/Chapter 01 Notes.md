@@ -100,3 +100,13 @@ end
 ### [1.4 Version control with Git](https://www.railstutorial.org/book/beginning#sec-version_control)
 - Version control systems allow us to track changes to our project’s code, collaborate more easily, and roll back any inadvertent errors (such as accidentally deleting files).
 - Putting your source code under version control with Git is strongly recommended, not only because it’s nearly a universal practice in the Rails world.
+
+### [1.4.1 Installation and setup](https://www.railstutorial.org/book/beginning#sec-git_setup)
+```
+$ git config --global user.name "Your Name"
+$ git config --global user.email your.email@example.com
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+```
+- The third line is included only to ensure forward-compatibility with an upcoming release of Git. The optional fourth line is included so that you can use co in place of the more verbose checkout command.
+- [Try Git: Code School](https://try.github.io/)
