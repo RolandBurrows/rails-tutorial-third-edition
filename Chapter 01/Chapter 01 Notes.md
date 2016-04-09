@@ -96,3 +96,7 @@ Rails.application.routes.draw do
 end
 ```
 - [Hello, world!](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/hello_world_hello_app.png)
+
+### [1.4 Version control with Git](https://www.railstutorial.org/book/beginning#sec-version_control)
+- Version control systems allow us to track changes to our project’s code, collaborate more easily, and roll back any inadvertent errors (such as accidentally deleting files).
+- Putting your source code under version control with Git is strongly recommended, not only because it’s nearly a universal practice in the Rails world.
