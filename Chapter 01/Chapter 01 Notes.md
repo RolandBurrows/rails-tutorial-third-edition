@@ -108,5 +108,6 @@ $ git config --global user.email your.email@example.com
 $ git config --global push.default matching
 $ git config --global alias.co checkout
 ```
-- The third line is included only to ensure forward-compatibility with an upcoming release of Git. The optional fourth line is included so that you can use co in place of the more verbose checkout command.
+- The third line is included only to ensure forward-compatibility with an upcoming release of Git.
+- The optional fourth line is included so that you can use co in place of the more verbose checkout command.
 - [Try Git: Code School](https://try.github.io/)
