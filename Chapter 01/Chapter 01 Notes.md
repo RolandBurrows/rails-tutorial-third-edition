@@ -111,3 +111,14 @@ $ git config --global alias.co checkout
 - The third line is included only to ensure forward-compatibility with an upcoming release of Git.
 - The optional fourth line is included so that you can use co in place of the more verbose checkout command.
 - [Try Git: Code School](https://try.github.io/)
+
+### [1.4.2 What good does Git do you?](https://www.railstutorial.org/book/beginning#uid73)
+- Suppose you’ve made some accidental changes, such as (D’oh!) deleting the critical app/controllers/ directory.
+- A file has been deleted, but the changes are only on the “working tree”; they haven’t been committed yet.
+- This means we can still undo the changes using the checkout command with the -f flag to force overwriting the current changes:
+```
+$ git checkout -f
+$ git status
+# On branch master
+nothing to commit (working directory clean)
+```
