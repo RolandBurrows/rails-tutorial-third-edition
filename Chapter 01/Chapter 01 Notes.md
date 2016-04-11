@@ -122,3 +122,7 @@ $ git status
 # On branch master
 nothing to commit (working directory clean)
 ```
+
+### [1.4.3 Bitbucket](https://www.railstutorial.org/book/beginning#sec-bitbucket)
+- Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
+- Previous editions of this tutorial used GitHub instead.  Since GitHub charges for private repositories while Bitbucket offers an unlimited number for free, for our purposes Bitbucket is a better fit than GitHub.
