@@ -133,6 +133,6 @@ nothing to commit (working directory clean)
 
 ### [1.5 Deploying](https://www.railstutorial.org/book/beginning#sec-deploying)
 - Deploying Rails applications used to be a pain, but the Rails deployment ecosystem has matured rapidly in the past few years, and now there are several great options. These include shared hosts or virtual private servers running [Phusion Passenger](http://www.modrails.com/) (a module for the Apache and Nginx web servers), full-service deployment companies such as [Engine Yard](http://engineyard.com/) and [Rails Machine](http://railsmachine.com/), and cloud deployment services such as [Engine Yard Cloud](http://cloud.engineyard.com/), [Ninefold](https://ninefold.com/), and [Heroku](http://heroku.com/).
-- Heroku makes deploying Rails applications ridiculously easy — as long as your source code is under version control with Git.
-- In addition, for many purposes, including for this tutorial, Heroku’s free tier is more than sufficient.
+- Heroku makes deploying Rails applications easy — as long as your source code is under version control with Git.
+- For many purposes, including for this tutorial, Heroku’s free tier is more than sufficient.
 - The rest of this section is dedicated to deploying our first application to Heroku.
