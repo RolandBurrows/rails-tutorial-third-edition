@@ -129,3 +129,4 @@ nothing to commit (working directory clean)
 
 ### [1.4.4 Branch, edit, commit, merge](https://www.railstutorial.org/book/beginning#sec-git_commands)
 - Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
+- Note: [GitHub Desktop](https://desktop.github.com/) is a handy tool.
