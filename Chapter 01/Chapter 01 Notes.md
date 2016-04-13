@@ -136,3 +136,12 @@ nothing to commit (working directory clean)
 - Heroku makes deploying Rails applications easy — as long as your source code is under version control with Git.
 - For many purposes, including for this tutorial, Heroku’s free tier is more than sufficient.
 - The rest of this section is dedicated to deploying our first application to Heroku.
+
+### [1.5.1 Heroku setup](https://www.railstutorial.org/book/beginning#sec-heroku_setup)
+```
+$ bundle install --without production
+.
+Bundle complete! 14 Gemfile dependencies, 56 gems now installed.
+```
+- [Proper Heroku signup link](https://signup.heroku.com/)
+- Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
