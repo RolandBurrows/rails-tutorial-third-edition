@@ -145,3 +145,8 @@ Bundle complete! 14 Gemfile dependencies, 56 gems now installed.
 ```
 - [Proper Heroku signup link](https://signup.heroku.com/)
 - Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
+
+### [1.5.2 Heroku deployment, step one](https://www.railstutorial.org/book/beginning#sec-heroku_step_one)
+```
+$ git push heroku master
+```
