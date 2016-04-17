@@ -167,3 +167,4 @@ remote: Verifying deploy... done.
 ### [1.5.3 Heroku deployment, step two](https://www.railstutorial.org/book/beginning#uid103)
 - http://whispering-lake-28097.herokuapp.com/
 - hello, world!
+- Hallo, Welt! (change deployed)
