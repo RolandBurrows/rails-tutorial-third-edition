@@ -163,3 +163,7 @@ Password (typing will be hidden): <enter password>
 $ git subtree push --prefix "<path_to_subfolder>" heroku master
 remote: Verifying deploy... done.
 ```
+
+### [1.5.3 Heroku deployment, step two](https://www.railstutorial.org/book/beginning#uid103)
+- http://whispering-lake-28097.herokuapp.com/
+- hello, world!
