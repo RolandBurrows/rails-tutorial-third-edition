@@ -49,7 +49,6 @@ arel, activerecord, thor, railties, concurrent-ruby, sprockets, sprockets-rails,
 ### [1.3 The first application](https://www.railstutorial.org/book/beginning#sec-the_hello_application)
 ```
 $ rails _4.2.2_ new hello_app
-.
 Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 ```
 - This standard directory and file structure is one of the many advantages of Rails; it immediately gets you from zero to a functional (if minimal) application.
@@ -140,14 +139,13 @@ nothing to commit (working directory clean)
 ### [1.5.1 Heroku setup](https://www.railstutorial.org/book/beginning#sec-heroku_setup)
 ```
 $ bundle install --without production
-.
 Bundle complete! 14 Gemfile dependencies, 56 gems now installed.
 ```
 - [Proper Heroku signup link](https://signup.heroku.com/)
 - Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
 
 ### [1.5.2 Heroku deployment, step one](https://www.railstutorial.org/book/beginning#sec-heroku_step_one)
-- At the root of the repository (at the repo is only the deployable app):
+- At the root of the repository (if the repo is only the deployable app):
 ```
 $ git push heroku master
 ```
@@ -155,13 +153,13 @@ $ git push heroku master
 ```
 $ cd <path_to_subfolder>
 $ heroku git:remote -a <heroku_instance_name>
-  => set git remote heroku to <heroku_instance_name>
+set git remote heroku to <heroku_instance_name>
 $ cd <repo_root>
 $ heroku auth:token
-  => <token>
+<token>
 $ heroku login
-  => <enter email>
-  => <enter password>
+Email: <enter email>
+Password (typing will be hidden): <enter password>
 $ git subtree push --prefix "<path_to_subfolder>" heroku master
-  => remote: Verifying deploy... done.
+remote: Verifying deploy... done.
 ```
