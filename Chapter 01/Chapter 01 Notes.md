@@ -147,6 +147,21 @@ Bundle complete! 14 Gemfile dependencies, 56 gems now installed.
 - Note: this entire section cannot be broken down further. It's basically a full tutorial in-and-of itself.
 
 ### [1.5.2 Heroku deployment, step one](https://www.railstutorial.org/book/beginning#sec-heroku_step_one)
+- At the root of the repository (at the repo is only the deployable app):
 ```
 $ git push heroku master
+```
+- Or, if your app is in a folder of the repo (as is the case for mine here):
+```
+$ cd <path_to_subfolder>
+$ heroku git:remote -a <heroku_instance_name>
+  => set git remote heroku to <heroku_instance_name>
+$ cd <repo_root>
+$ heroku auth:token
+  => <token>
+$ heroku login
+  => <enter email>
+  => <enter password>
+$ git subtree push --prefix "<path_to_subfolder>" heroku master
+  => remote: Verifying deploy... done.
 ```
