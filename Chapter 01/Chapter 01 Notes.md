@@ -165,6 +165,11 @@ remote: Verifying deploy... done.
 ```
 
 ### [1.5.3 Heroku deployment, step two](https://www.railstutorial.org/book/beginning#uid103)
-- http://whispering-lake-28097.herokuapp.com/
+- http://whispering-lake-28097.herokuapp.com/ (renamed, below)
 - hello, world!
 - Hallo, Welt! (change deployed)
+
+### [1.5.4 Heroku commands](https://www.railstutorial.org/book/beginning#sec-heroku_commands)
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command)
+- http://helm108.herokuapp.com/
+- Helm to 108!
