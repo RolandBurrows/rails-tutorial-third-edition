@@ -168,8 +168,12 @@ remote: Verifying deploy... done.
 - http://whispering-lake-28097.herokuapp.com/ (renamed, below)
 - hello, world!
 - Hallo, Welt! (change deployed)
+- To update git remote elsewhere: `git remote set-url heroku https://git.heroku.com/helm108.git`
 
 ### [1.5.4 Heroku commands](https://www.railstutorial.org/book/beginning#sec-heroku_commands)
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command)
 - http://helm108.herokuapp.com/
 - Helm to 108!
+
+### [1.6 Conclusion](https://www.railstutorial.org/book/beginning#sec-beginning_conclusion)
+- In the next chapter, we’ll build on the foundation from Chapter 1 to make a database-backed toy app.
