@@ -1,6 +1,6 @@
 ## [Chapter 1 - From zero to deploy](https://www.railstutorial.org/book/beginning)
 
-### Foreword
+### [Foreword](https://www.railstutorial.org/book/beginning#cha-beginning)
 - If you already know web development, this book will quickly teach you the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby.
 - The emphasis throughout the tutorial is on general principles, so you will have a solid foundation no matter what kinds of web applications you want to build.
 - In this first chapter, we’ll get started with Ruby on Rails by installing all the necessary software and by setting up our development environment
@@ -11,6 +11,12 @@
 - Then, in Chapter 5 through Chapter 10, we’ll complete the foundation for the sample application by making a site layout, a user data model, and a full registration and authentication system (including account activation and password resets).
 - Finally, in Chapter 11 and Chapter 12 we’ll add microblogging and social features to make a working example site.
 - When writing a Ruby on Rails tutorial, it is tempting to rely on the scaffolding approach—it’s quicker, easier, more seductive. Following the scaffolding approach risks turning you into a virtuoso script generator with little (and brittle) actual knowledge of Rails.
+
+### [1.1 Introduction](https://www.railstutorial.org/book/beginning#sec-introduction)
+- What makes Rails so great? First of all, Ruby on Rails is 100% open-source, available under the permissive MIT License, and as a result it also costs nothing to download or use.
+- Many common web programming tasks—such as generating HTML, making data models, and routing URLs—are easy with Rails, and the resulting application code is concise and readable.
+- Rails was one of the first frameworks to fully digest and implement the REST architectural style for structuring web applications.
+- The large number of Rails programmers also makes it easier to handle the inevitable application errors: the “Google the error message” algorithm nearly always produces a relevant blog post or discussion-forum thread.
 
 ### [1.1.1 Prerequisites](https://www.railstutorial.org/book/beginning#sec-prerequisites)
 - There are no formal prerequisites to this book—the Ruby on Rails Tutorial contains integrated tutorials not only for Rails, but also for the underlying Ruby language, the default Rails testing framework (minitest), the Unix command line, HTML, CSS, a small amount of JavaScript, and even a little SQL.
@@ -187,3 +193,4 @@ remote: Verifying deploy... done.
 
 ### [1.7 Exercises](https://www.railstutorial.org/book/beginning#sec-beginning_exercises)
 1. ¡Helm to 108‽
+2. `hello` +-> `goodbye`. Easy peasy.
