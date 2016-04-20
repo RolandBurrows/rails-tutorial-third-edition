@@ -67,6 +67,7 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
   - `cannot load such file -- sqlite3/sqlite3_native (LoadError)` => [StackOverflow: Update gem to 1.3.11](http://stackoverflow.com/questions/17643897/cannot-load-such-file-sqlite3-sqlite3-native-loaderror-on-ruby-on-rails)
   - `cannot load such file -- pty (LoadError)` => [StackOverflow: Remove non-windows gem](http://stackoverflow.com/questions/26666690/rails-generate-controller-gives-me-load-error)
   - It works!
+- On a local server, point your browser at the address `http://localhost:3000/`.
 ```
 Started GET "/" for ::1 at 2016-04-05 23:12:28 -0600
 Processing by Rails::WelcomeController#index as HTML
@@ -183,3 +184,6 @@ remote: Verifying deploy... done.
 - We added a controller action and modified the root route to create a “hello, world” application.
 - We protected against data loss while enabling collaboration by placing our application source code under version control with Git.
 - We deployed our application to a production environment using Heroku.
+
+### [1.7 Exercises](https://www.railstutorial.org/book/beginning#sec-beginning_exercises)
+1. ¡Helm to 108‽
