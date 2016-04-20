@@ -177,3 +177,9 @@ remote: Verifying deploy... done.
 
 ### [1.6 Conclusion](https://www.railstutorial.org/book/beginning#sec-beginning_conclusion)
 - In the next chapter, we’ll build on the foundation from Chapter 1 to make a database-backed toy app.
+
+### [1.6.1 What we learned in this chapter](https://www.railstutorial.org/book/beginning#sec-beginning_what_we_learned_in_this_chapter)
+- Rails comes with a command-line command that can generate new applications (`rails new`) and run local servers (`rails server`).
+- We added a controller action and modified the root route to create a “hello, world” application.
+- We protected against data loss while enabling collaboration by placing our application source code under version control with Git.
+- We deployed our application to a production environment using Heroku.
