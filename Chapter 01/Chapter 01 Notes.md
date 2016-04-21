@@ -193,4 +193,4 @@ remote: Verifying deploy... done.
 
 ### [1.7 Exercises](https://www.railstutorial.org/book/beginning#sec-beginning_exercises)
 1. ¡Helm to 108‽
-2. `hello` +-> `goodbye`. Easy peasy.
+2. `hello` => `goodbye`. Easy peasy.
