@@ -72,6 +72,7 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 - Windows issues resolved:
   - `cannot load such file -- sqlite3/sqlite3_native (LoadError)` => [StackOverflow: Update gem to 1.3.11](http://stackoverflow.com/questions/17643897/cannot-load-such-file-sqlite3-sqlite3-native-loaderror-on-ruby-on-rails)
   - `cannot load such file -- pty (LoadError)` => [StackOverflow: Remove non-windows gem](http://stackoverflow.com/questions/26666690/rails-generate-controller-gives-me-load-error)
+  - `No source of timezone data could be found. (TZInfo::DataSourceNotFound)` => add `gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]` to gemfile
   - It works!
 - On a local server, point your browser at the address `http://localhost:3000/`.
 ```
