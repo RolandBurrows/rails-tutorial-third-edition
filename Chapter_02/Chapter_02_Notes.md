@@ -15,3 +15,9 @@ Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
 $ bundle install --without production
 Bundle complete! 14 Gemfile dependencies, 58 gems now installed.
 ```
+```
+https://frozen-atoll-55751.herokuapp.com/
+=> "I'm a toy app. Play with me!"
+```
+- The typical first step when making a web application is to create a data model, which is a representation of the structures needed by our application.
+- In our case, the toy app will be a microblog, with only users and short (micro)posts. Thus, we’ll begin with a model for users of the app (Section 2.1.1), and then we’ll add a model for microposts (Section 2.1.2).
