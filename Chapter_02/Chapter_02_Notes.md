@@ -4,3 +4,14 @@
 - Scaffold generators create a large amount of functionality automatically.
 - The resulting toy app will allow us to interact with it through its URLs, giving us insight into the structure of a Rails application, including a first example of the REST architecture favored by Rails.
 - It will also consist of users and their associated microposts (thus constituting a minimalist Twitter-style app).
+
+### [2.1 Planning the application](https://www.railstutorial.org/book/toy_app#sec-planning_the_application)
+```
+$ rails _4.2.2_ new toy_app
+Bundle complete! 12 Gemfile dependencies, 55 gems now installed.
+```
+- [Updated gemfile to use](https://www.railstutorial.org/book/toy_app#code-demo_gemfile_sqlite_version_redux)
+```
+$ bundle install --without production
+Bundle complete! 14 Gemfile dependencies, 58 gems now installed.
+```
