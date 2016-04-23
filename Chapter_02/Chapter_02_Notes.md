@@ -21,3 +21,10 @@ https://frozen-atoll-55751.herokuapp.com/
 ```
 - The typical first step when making a web application is to create a data model, which is a representation of the structures needed by our application.
 - In our case, the toy app will be a microblog, with only users and short (micro)posts. Thus, we’ll begin with a model for users of the app (Section 2.1.1), and then we’ll add a model for microposts (Section 2.1.2).
+
+### [2.1.1 A toy model for users](https://www.railstutorial.org/book/toy_app#sec-modeling_demo_users)
+- Users of our toy app will have:
+  - A unique integer identifier called id
+  - A publicly viewable name (of type string)
+  - An email address (also a string) that will double as a username
+- As we’ll see starting in Section 6.1.1, the label `users` corresponds to a table in a database, and the `id`, `name`, and `email` attributes are columns in that table.
