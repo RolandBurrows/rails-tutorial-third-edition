@@ -28,3 +28,8 @@ https://frozen-atoll-55751.herokuapp.com/
   - A publicly viewable name (of type string)
   - An email address (also a string) that will double as a username
 - As we’ll see starting in Section 6.1.1, the label `users` corresponds to a table in a database, and the `id`, `name`, and `email` attributes are columns in that table.
+
+### [2.1.2 A toy model for microposts](https://www.railstutorial.org/book/toy_app#sec-modeling_demo_microposts)
+- A micropost has only an `id` and a `content` field for the micropost’s text (of type text).
+- There’s an additional complication, though: we want to associate each micropost with a particular user. We’ll accomplish this by recording the `user_id` of the owner of the post.
+- We’ll see in Section 2.3.3 (and more fully in Chapter 11) how this user_id attribute allows us to succinctly express the notion that a user potentially has many associated microposts.
