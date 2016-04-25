@@ -33,3 +33,11 @@ https://frozen-atoll-55751.herokuapp.com/
 - A micropost has only an `id` and a `content` field for the micropost’s text (of type *text*).
 - There’s an additional complication, though: we want to associate each micropost with a particular user. We’ll accomplish this by recording the `user_id` of the owner of the post.
 - We’ll see in Section 2.3.3 (and more fully in Chapter 11) how this `user_id` attribute allows us to succinctly express the notion that a user potentially has many associated microposts.
+
+### [2.2 The Users resource](https://www.railstutorial.org/book/toy_app#sec-demo_users_resource)
+- We’ll implement the `users` data model, along with a web interface to that model. The combination will constitute a Users resource, which will allow us to think of users as objects that can be created, read, updated, and deleted (CRUD) through the web via the HTTP protocol.
+- `$ rails generate scaffold User name:string email:string` => Success!
+- `$ bundle exec rake db:migrate` => Success!
+- Note that, in order to ensure that the command uses the version of Rake corresponding to our Gemfile, we need to run rake using `bundle exec`.
+- In the Unix tradition, the `make` utility has played an important role in building executable programs from source code.
+- Rake is "Ruby make", a make-like language written in Ruby. Rails uses Rake extensively, especially for the innumerable little administrative tasks necessary when developing database-backed web applications.
