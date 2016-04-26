@@ -41,3 +41,6 @@ https://frozen-atoll-55751.herokuapp.com/
 - Note that, in order to ensure that the command uses the version of Rake corresponding to our Gemfile, we need to run rake using `bundle exec`.
 - In the Unix tradition, the `make` utility has played an important role in building executable programs from source code.
 - Rake is "Ruby make", a make-like language written in Ruby. Rails uses Rake extensively, especially for the innumerable little administrative tasks necessary when developing database-backed web applications.
+
+### [2.2.1 A user tour](https://www.railstutorial.org/book/toy_app#sec-a_user_tour)
+- [Stack Overflow solution to "Rails ExecJS::ProgramError in Pages#home" issue (Windows)](http://stackoverflow.com/questions/28421547/rails-execjsprogramerror-in-pageshome)
