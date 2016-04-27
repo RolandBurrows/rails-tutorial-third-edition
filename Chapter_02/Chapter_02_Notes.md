@@ -67,7 +67,9 @@ User was successfully destroyed.
 
 ### [2.2.2 MVC in action](https://www.railstutorial.org/book/toy_app#sec-mvc_in_action)
 - [A detailed diagram of MVC in Rails.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/mvc_detailed.png)
-Here is a summary of the steps shown in Figure 2.11:
+
+Here is a summary of the steps shown in the diagram:
+
 1. The browser issues a request for the /users URL.
 2. Rails routes /users to the index action in the Users controller.
 3. The index action asks the User model to retrieve all users (User.all).
