@@ -71,10 +71,14 @@ User was successfully destroyed.
 Here is a summary of the steps shown in the diagram:
 
 1. The browser issues a request for the `/users` URL.
-2. Rails routes `/users` to the index action in the Users controller.
+2. Rails routes `/users` to the index action in the `Users` controller.
 3. The index action asks the `User` model to retrieve all users (`User.all`).
 4. The `User` model pulls all the users from the database.
 5. The `User` model returns the list of users to the controller.
 6. The controller captures the users in the `@users` variable, which is passed to the index view.
 7. The view uses embedded Ruby to render the page as HTML.
 8. The controller passes the HTML back to the browser.
+
+- [Table: RESTful routes provided by the Users resource](https://www.railstutorial.org/book/toy_app#table-demo_RESTful_users)
+- [REpresentational State Transfer (REST) primer](https://www.railstutorial.org/book/toy_app#aside-REST)
+- Further reading: [Active Record](http://guides.rubyonrails.org/active_record_basics.html)
