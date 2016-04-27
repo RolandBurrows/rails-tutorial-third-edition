@@ -70,11 +70,11 @@ User was successfully destroyed.
 
 Here is a summary of the steps shown in the diagram:
 
-1. The browser issues a request for the /users URL.
-2. Rails routes /users to the index action in the Users controller.
-3. The index action asks the User model to retrieve all users (User.all).
-4. The User model pulls all the users from the database.
-5. The User model returns the list of users to the controller.
-6. The controller captures the users in the @users variable, which is passed to the index view.
+1. The browser issues a request for the `/users` URL.
+2. Rails routes `/users` to the index action in the Users controller.
+3. The index action asks the `User` model to retrieve all users (`User.all`).
+4. The `User` model pulls all the users from the database.
+5. The `User` model returns the list of users to the controller.
+6. The controller captures the users in the `@users` variable, which is passed to the index view.
 7. The view uses embedded Ruby to render the page as HTML.
 8. The controller passes the HTML back to the browser.
