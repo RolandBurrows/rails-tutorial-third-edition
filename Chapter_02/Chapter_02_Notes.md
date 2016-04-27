@@ -79,6 +79,7 @@ Here is a summary of the steps shown in the diagram:
 7. The view uses embedded Ruby to render the page as HTML.
 8. The controller passes the HTML back to the browser.
 
+And more notes:
 - [Table: RESTful routes provided by the Users resource](https://www.railstutorial.org/book/toy_app#table-demo_RESTful_users)
 - [REpresentational State Transfer (REST) primer](https://www.railstutorial.org/book/toy_app#aside-REST)
 - Further reading: [Active Record](http://guides.rubyonrails.org/active_record_basics.html)
