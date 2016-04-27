@@ -44,3 +44,23 @@ https://frozen-atoll-55751.herokuapp.com/
 
 ### [2.2.1 A user tour](https://www.railstutorial.org/book/toy_app#sec-a_user_tour)
 - [Stack Overflow solution to "Rails ExecJS::ProgramError in Pages#home" issue (Windows)](http://stackoverflow.com/questions/28421547/rails-execjsprogramerror-in-pageshome)
+  - [Specific advice, which does indeed work](http://stackoverflow.com/a/35965674)
+```
+http://localhost:3000/users/1
+User was successfully created.
+Name: Usor
+Email: usor@usor.test
+```
+```
+User was successfully updated.
+Name: User
+Email: user@user.test
+```
+```
+User was successfully created.
+Name: two-ser
+Email: two-ser@user.test
+```
+```
+User was successfully destroyed.
+```
