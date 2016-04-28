@@ -83,3 +83,11 @@ And more notes:
 - [Table: RESTful routes provided by the Users resource](https://www.railstutorial.org/book/toy_app#table-demo_RESTful_users)
 - [REpresentational State Transfer (REST) primer](https://www.railstutorial.org/book/toy_app#aside-REST)
 - Further reading: [Active Record](http://guides.rubyonrails.org/active_record_basics.html)
+
+### [2.2.3 Weaknesses of this Users resource](https://www.railstutorial.org/book/toy_app#sec-weaknesses_of_this_users_resource)
+
+Though good for getting a general overview of Rails, the scaffold Users resource suffers from a number of severe weaknesses:
+- **No data validations.** Our `User` model accepts data such as blank names and invalid email addresses without complaint.
+- **No authentication.** We have no notion of logging in or out, and no way to prevent any user from performing any operation.
+- **No tests.** This isn’t technically true—the scaffolding includes rudimentary tests—but the generated tests don’t test for data validation, authentication, or any other custom requirements.
+- **No style or layout.** There is no consistent site styling or navigation.
