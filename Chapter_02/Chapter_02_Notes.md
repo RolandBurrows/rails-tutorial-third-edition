@@ -91,3 +91,8 @@ Though good for getting a general overview of Rails, the scaffold `Users` resour
 - **No authentication.** We have no notion of logging in or out, and no way to prevent any user from performing any operation.
 - **No tests.** This isn’t technically true — the scaffolding includes rudimentary tests — but the generated tests don’t test for data validation, authentication, or any other custom requirements.
 - **No style or layout.** There is no consistent site styling or navigation.
+
+### [2.3 The Microposts resource](https://www.railstutorial.org/book/toy_app#sec-microposts_resource)
+- Having generated and explored the `Users` resource, we turn now to the associated `Microposts` resource.
+- The RESTful structure of Rails applications is best absorbed by this sort of repetition of form.
+- Indeed, seeing the parallel structure of `Users` and `Microposts` even at this early stage is one of the prime motivations for this chapter.
