@@ -101,3 +101,9 @@ Though good for getting a general overview of Rails, the scaffold `Users` resour
 - `$ rails generate scaffold Micropost content:text user_id:integer`
 - `$ bundle exec rake db:migrate`
 - [Table: RESTful Microposts](https://www.railstutorial.org/book/toy_app#table-demo_RESTful_microposts)
+- New Micropost:
+```
+Micropost was successfully created.
+Content: First!
+User: 1
+```
