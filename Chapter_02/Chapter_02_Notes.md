@@ -107,3 +107,18 @@ Micropost was successfully created.
 Content: First!
 User: 1
 ```
+
+### [2.3.2 Putting the micro in microposts](https://www.railstutorial.org/book/toy_app#sec-putting_the_micro_in_microposts)
+- Any micropost worthy of the name should have some means of enforcing the length of the post. Implementing this constraint in Rails is easy with *validations*.
+- To accept microposts with at most 140 characters (for example), we use a length validation:
+```
+app/models/micropost.rb
+  class Micropost < ActiveRecord::Base
+   validates :content, length: { maximum: 140 }
+  end
+```
+- Rails renders error messages indicating that the micropost’s content is too long. (We’ll learn more about error messages in Section 7.3.3.).
+```
+1 error prohibited this micropost from being saved:
+Content is too long (maximum is 140 characters)
+```
