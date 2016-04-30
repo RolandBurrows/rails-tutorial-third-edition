@@ -96,3 +96,8 @@ Though good for getting a general overview of Rails, the scaffold `Users` resour
 - Having generated and explored the `Users` resource, we turn now to the associated `Microposts` resource.
 - The RESTful structure of Rails applications is best absorbed by this sort of repetition of form.
 - Indeed, seeing the parallel structure of `Users` and `Microposts` even at this early stage is one of the prime motivations for this chapter.
+
+### [2.3.1 A micropost microtour](https://www.railstutorial.org/book/toy_app#sec-a_micropost_microtour)
+- `$ rails generate scaffold Micropost content:text user_id:integer`
+- `$ bundle exec rake db:migrate`
+- [Table: RESTful Microposts](https://www.railstutorial.org/book/toy_app#table-demo_RESTful_microposts)
