@@ -122,3 +122,21 @@ app/models/micropost.rb
 1 error prohibited this micropost from being saved:
 Content is too long (maximum is 140 characters)
 ```
+
+### [2.3.3 A user has_many microposts](https://www.railstutorial.org/book/toy_app#sec-demo_user_has_many_microposts)
+- One of the most powerful features of Rails is the ability to form *associations* between different data models. In the case of our `User` model, each user potentially has many microposts.
+- We can examine the implications of the user-micropost association by using the `console`, which is a useful tool for interacting with Rails applications.
+```
+$ rails console
+Loading development environment (Rails 4.2.2)
+irb(main):001:0> first_user = User.first
+  User Load (0.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  => #<User id: 2, name: "one-ser", email: "one-ser@user.test", created_at: "2016-04-27 04:10:26", updated_at: "2016-05-01 02:53:51">
+irb(main):002:0> first_user.microposts
+  Micropost Load (0.0ms)  SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 2]]
+  => #<ActiveRecord::Associations::CollectionProxy [#<Micropost id: 4, content: "12345678901234567890123456789012345678901234567890...", user_id: 2, created_at: "2016-04-30 20:59:55", updated_at: "2016-05-01 02:52:06">]>
+irb(main):003:0> micropost = first_user.microposts.first
+  => #<Micropost id: 4, content: "12345678901234567890123456789012345678901234567890...", user_id: 2, created_at: "2016-04-30 20:59:55", updated_at: "2016-05-01 02:52:06">
+irb(main):004:0> micropost.user
+  => #<User id: 2, name: "one-ser", email: "one-ser@user.test", created_at: "2016-04-27 04:10:26", updated_at: "2016-05-01 02:53:51">
+```
