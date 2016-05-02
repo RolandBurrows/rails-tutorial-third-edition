@@ -140,3 +140,16 @@ irb(main):003:0> micropost = first_user.microposts.first
 irb(main):004:0> micropost.user
   => #<User id: 2, name: "one-ser", email: "one-ser@user.test", created_at: "2016-04-27 04:10:26", updated_at: "2016-05-01 02:53:51">
 ```
+
+### [2.3.4 Inheritance hierarchies](https://www.railstutorial.org/book/toy_app#sec-inheritance_hierarchies)
+```
+app/models/user.rb
+ class User < ActiveRecord::Base
+ end
+
+app/models/micropost.rb
+ class Micropost < ActiveRecord::Base
+ end
+```
+- [Figure 2.16: The inheritance hierarchy for the User and Micropost models.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/demo_model_inheritance.png)
+
