@@ -161,4 +161,5 @@ app/controllers/application_controller.rb
  class ApplicationController < ActionController::Base
  ```
 - [Figure 2.17: The inheritance hierarchy for the Users and Microposts controllers.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/demo_controller_inheritance.png)
-
+- As with model inheritance, both the `Users` and `Microposts` controllers gain a large amount of functionality by inheriting from a base class (in this case, `ActionController::Base`), including the ability to manipulate model objects, filter inbound HTTP requests, and render views as HTML.
+- Since all Rails controllers inherit from `ApplicationController`, rules defined in the `Application` controller automatically apply to every action in the application. For example, in Section 8.4 we’ll see how to include helpers for logging in and logging out of all of the sample application’s controllers.
