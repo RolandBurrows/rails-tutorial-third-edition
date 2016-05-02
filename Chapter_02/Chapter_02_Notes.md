@@ -152,4 +152,13 @@ app/models/micropost.rb
  end
 ```
 - [Figure 2.16: The inheritance hierarchy for the User and Micropost models.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/demo_model_inheritance.png)
+```
+app/controllers/users_controller.rb
+ class UsersController < ApplicationController
+app/controllers/microposts_controller.rb
+ class MicropostsController < ApplicationController
+app/controllers/application_controller.rb
+ class ApplicationController < ActionController::Base
+ ```
+- [Figure 2.17: The inheritance hierarchy for the Users and Microposts controllers.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/demo_controller_inheritance.png)
 
