@@ -155,8 +155,10 @@ app/models/micropost.rb
 ```
 app/controllers/users_controller.rb
  class UsersController < ApplicationController
+
 app/controllers/microposts_controller.rb
  class MicropostsController < ApplicationController
+
 app/controllers/application_controller.rb
  class ApplicationController < ActionController::Base
  ```
