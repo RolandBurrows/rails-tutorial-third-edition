@@ -169,3 +169,14 @@ app/controllers/application_controller.rb
 ### [2.3.5 Deploying the toy app](https://www.railstutorial.org/book/toy_app#sec-deploying_the_toy_app)
 - `$ git push heroku` (This assumes you created the Heroku app in Section 2.1. Otherwise, you should run heroku create and then git push heroku master.)
 - To get the application’s database to work, you’ll also have to migrate the production database: `$ heroku run rake db:migrate`
+
+### [2.4 Conclusion](https://www.railstutorial.org/book/toy_app#sec-toy_app_conclusion)
+- We’ve come now to the end of the high-level overview of a Rails application. The toy app developed in this chapter has several strengths and a host of weaknesses.
+- Strengths
+  - Introduction to MVC
+  - First taste of the REST architecture
+  - Beginning data modeling
+- Weaknesses
+  - No static pages (such as “Home” or “About”)
+  - No security
+  - No meaningful tests
