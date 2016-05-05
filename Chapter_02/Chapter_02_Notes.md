@@ -188,3 +188,6 @@ app/controllers/application_controller.rb
 - Rails supports data validations to place constraints on the values of data model attributes.
 - Rails comes with built-in functions for defining associations between different data models.
 - We can interact with Rails applications at the command line using the Rails console.
+
+### [2.5 Exercises](https://www.railstutorial.org/book/toy_app#sec-toy_app_exercises)
+1. Confirmed.
