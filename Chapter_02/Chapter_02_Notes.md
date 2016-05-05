@@ -191,3 +191,4 @@ app/controllers/application_controller.rb
 
 ### [2.5 Exercises](https://www.railstutorial.org/book/toy_app#sec-toy_app_exercises)
 1. Confirmed.
+2. Confirmed.
